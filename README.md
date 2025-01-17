@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌊 Tide
 
-## Getting Started
+A beautiful, minimalist perspective timer that shows how far you've progressed through your day and year.
 
-First, run the development server:
+![Tide Demo](public/demo.gif)
+
+## ✨ Features
+
+- **Real-time Progress Tracking**: Watch your day unfold with a beautiful, animated progress bar
+- **Year Perspective**: Toggle the yearly view to see your progress through the current year
+- **Dark Mode**: Seamlessly switch between light and dark themes
+- **Minimal & Fast**: No accounts, no storage, just instant visual feedback
+- **Beautiful UI**: Smooth animations and modern design with a focus on aesthetics
+- **Fully Responsive**: Works beautifully on all devices
+
+## 🚀 Quick Start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+# Clone the repository
+git clone https://github.com/yourusername/tide.git
+
+# Navigate to the project
+cd tide
+
+# Install dependencies
+bun install
+
+# Start the development server
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to see your local instance.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Built With
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js 14](https://nextjs.org/) - The React Framework
+- [Tailwind CSS](https://tailwindcss.com/) - For styling
+- [shadcn/ui](https://ui.shadcn.com/) - UI components
+- [TypeScript](https://www.typescriptlang.org/) - For type safety
+- [Bun](https://bun.sh/) - JavaScript runtime & package manager
 
-## Learn More
+## 🎨 Design Philosophy
 
-To learn more about Next.js, take a look at the following resources:
+Tide is built with a "less is more" philosophy. The interface is intentionally minimal to help users focus on the passage of time without distraction. The smooth animations and thoughtful color schemes create a calming experience while providing valuable perspective on time.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! Feel free to:
 
-## Deploy on Vercel
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Inspired by the need for better time perspective
+- Built with modern web technologies
+- Design inspired by minimalist principles
+
+---
+
+<p align="center">Made with ❤️ for better time awareness</p>
